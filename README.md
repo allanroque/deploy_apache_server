@@ -13,10 +13,11 @@ Role Variables
 
 This role includes a customizable variable for setting a test message, which can be used to validate the Apache installation and configuration through a simple web page display.
 
+````
 Variable: apache_test_message
+````
 
 Default Message: "Test apache e automation"
-
 
 Example Playbook
 ----------------
