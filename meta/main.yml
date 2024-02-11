@@ -1,0 +1,24 @@
+galaxy_info:
+  author: Allan Roque
+  description: This role provides a straightforward Apache web server installation, perfect for testing and demonstration purposes. It's designed for simplicity, enabling quick deployment of an Apache environment suited for development, demos, or educational use.
+  company: Red Hat
+  namespace: allanroque
+  role_name: deploy_apache_server
+
+  license: MIT
+
+  min_ansible_version: 2.9
+
+  platforms:
+  - name: rhel
+    versions:
+     - 7
+     - 8
+     - 9
+
+  galaxy_tags:
+    - apache
+    - webserver
+    - demo
+
+dependencies: []
